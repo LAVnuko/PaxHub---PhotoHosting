@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /admin/
+RewriteRule ^login\.php$ - [L]
