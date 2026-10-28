@@ -1,0 +1,48 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Composer dependencies (install from composer.lock)
+/vendor/
+**/vendor/
+composer.phar
+**/composer.phar
+
+# Runtime data, generated caches and logs
+/cache/*
+!/cache/.gitkeep
+/tmp/*
+!/tmp/.gitkeep
+/logs/*
+!/logs/.htaccess
+!/logs/.gitkeep
+/var/logs/*
+!/var/logs/.gitkeep
+**/var/logs/*
+**/cache/*
+!**/cache/.gitkeep
+
+# User-generated uploads; commit only intentional public demo assets
+/uploads/*
+!/uploads/.gitkeep
+**/uploads/*
+!**/uploads/.gitkeep
+
+# Local/editor/OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+
+# Tests / local coverage
+.phpunit.cache/
+coverage/
